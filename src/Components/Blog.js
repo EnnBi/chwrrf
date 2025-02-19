@@ -1,16 +1,15 @@
 import React, { useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Footer from "./Footer";
-import image from "../img/page-header-bg.jpg";
 
 const Blog = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const { camp, data,heading } = location.state;
+  const { camp, data, heading } = location.state;
 
   const handleClick = (post) => {
-    navigate('/blog', { state: { camp: post ,data:data,heading:heading}});
+    navigate("/blog", { state: { camp: post, data: data, heading: heading } });
   };
 
   useEffect(() => {
@@ -30,7 +29,7 @@ const Blog = () => {
         <div className="container">
           <div className="page-content">
             <h2>{camp.title}</h2>
-           
+
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
                 <Link to="/">Home</Link>
@@ -73,10 +72,10 @@ const Blog = () => {
                           alt="blog post"
                         />
                         <div>
-                        <div onClick={() => handleClick(post)}>
-                          <h4>
-                            <Link to={"/blog"}>{post.title}</Link>
-                          </h4>
+                          <div onClick={() => handleClick(post)}>
+                            <h4>
+                              <Link to={"/blog"}>{post.title}</Link>
+                            </h4>
                           </div>
                           <span className="date">
                             <i className="fa fa-clock-o"></i>{" "}

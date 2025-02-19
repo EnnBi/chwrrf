@@ -11,7 +11,6 @@ import MenuItem from "@mui/material/MenuItem";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Avatar } from "@mui/material";
 import { Link as ScrollLink } from "react-scroll";
-import { Link } from "react-router-dom";
 import { menuItems } from "../data/Constants";
 
 const Navbar = () => {
@@ -130,7 +129,7 @@ const Navbar = () => {
               {menuItems.map((item) => (
                 <MenuItem key={item.route} onClick={handleCloseNavMenu}>
                   <Typography
-                    className={item.isActive ? "active-nav-link" : ""}
+                  // className={item.isActive ? "active-nav-link" : ""}
                   >
                     <ScrollLink
                       activeClass="active"

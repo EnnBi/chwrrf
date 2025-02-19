@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography, Divider } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import "../main.css";
-import { Main_carousel, news_data, promo_Options } from "../data/Constants";
+import { Main_carousel, promo_Options } from "../data/Constants";
 import { getAllNotifications } from "../api";
 import { Link as ScrollLink } from "react-scroll";
 
@@ -151,7 +151,11 @@ const Main = () => {
                           },
                         }}
                       >
-                        <a href={data.link} target="_blank">
+                        <a
+                          href={data.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <span
                             style={{
                               whiteSpace: "pre-line",

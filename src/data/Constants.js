@@ -105,11 +105,11 @@ export const promo_Options = [
 ];
 
 export const menuItems = [
-  
   {
     route: "Home",
     target: "main",
-  },{
+  },
+  {
     route: "About",
     target: "about",
   },
@@ -219,12 +219,12 @@ export const future_campaigns = [
 ];
 
 export const volunteers = [
-  {
-    id: 0,
-    img: process.env.PUBLIC_URL + "/images/team-2.jpg",
-    name: "Dr.Aadil Bashir Wani",
-    qual: "Sr.Assistant Professor Social work University of Kashmir Child Rights Expert",
-  },
+  // {
+  //   id: 0,
+  //   img: process.env.PUBLIC_URL + "/images/team-2.jpg",
+  //   name: "Dr.Aadil Bashir Wani",
+  //   qual: "Sr.Assistant Professor Social work University of Kashmir Child Rights Expert",
+  // },
   {
     id: 1,
     img: process.env.PUBLIC_URL + "/images/team-3.png",
@@ -266,14 +266,14 @@ export const team_members = [
     title: "Specialization-Unorganized Sector",
     qual: "B.A, B.Ed., M.A, PhD.UGC- NET,SET, JRF",
   },
-  {
-    id: 1,
-    img: process.env.PUBLIC_URL + "/images/team-02.jpg",
-    name: "Mr.Zahid Ahmad Lone",
-    designation: "Coordinator",
-    title: "Specialization-Disability studies.",
-    qual: "MSW,PhD(Pursuing)UGC-NET",
-  },
+  // {
+  //   id: 1,
+  //   img: process.env.PUBLIC_URL + "/images/team-02.jpg",
+  //   name: "Mr.Zahid Ahmad Lone",
+  //   designation: "Coordinator",
+  //   title: "Specialization-Disability studies.",
+  //   qual: "MSW,PhD(Pursuing)UGC-NET",
+  // },
   {
     id: 2,
     img: process.env.PUBLIC_URL + "/images/team-03.jpg",
@@ -282,14 +282,14 @@ export const team_members = [
     title: "Specialization- Working With Children, Youth",
     qual: "B.A,MSW",
   },
-  {
-    id: 3,
-    img: process.env.PUBLIC_URL + "/images/team-03.jpg",
-    name: "Ms.Seerat Jan",
-    designation: "Organizer",
-    title: "Specialization- Working With Women, Elderly",
-    qual: "B.A, MSW",
-  },
+  // {
+  //   id: 3,
+  //   img: process.env.PUBLIC_URL + "/images/team-03.jpg",
+  //   name: "Ms.Seerat Jan",
+  //   designation: "Organizer",
+  //   title: "Specialization- Working With Women, Elderly",
+  //   qual: "B.A, MSW",
+  // },
   {
     id: 4,
     img: process.env.PUBLIC_URL + "/images/team-05.jpg",
@@ -305,7 +305,8 @@ export const team_members = [
     designation: "Program Manager/coordinator",
     title: "Specialization-HR & Finance",
     qual: "MBA, MPhil",
-  },  {
+  },
+  {
     id: 6,
     img: process.env.PUBLIC_URL + "/images/team-07.jpeg",
     name: "Er. Mohammad Faizan Bhat",
@@ -314,4 +315,3 @@ export const team_members = [
     qual: "BTech (NIT)",
   },
 ];
-
